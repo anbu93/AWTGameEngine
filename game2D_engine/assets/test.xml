@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="test">
+    <resources src="assets/sprites/source.xml"/>
+    <scene id="test_scene_1" class="com.vova_cons.engine.modules.test.TestScene" arg="Тестовая сцена 1"/>
+    <scene id="test_scene_2" class="com.vova_cons.engine.modules.test.TestScene" arg="Тестовая сцена 2"/>
+</module>

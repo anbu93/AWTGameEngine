@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<core>
+    <main_loop tick_time="50"/>
+    <window title="Engine test" width="800" height="600"/>
+    <init scene="main_menu"/>
+    <module path="assets/menu.xml"/>
+    <module path="assets/test.xml"/>
+</core>

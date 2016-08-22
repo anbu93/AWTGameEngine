@@ -1,0 +1,11 @@
+com\vova_cons\physic\rect\TopLeftDefineRectangleTest.class
+com\vova_cons\ResourceTest.class
+com\vova_cons\window\WindowTest.class
+com\vova_cons\physic\point\SimplePointTest.class
+com\vova_cons\sprite\SpriteTest$WindowMock.class
+com\vova_cons\sprite_loader\SpriteLoaderTest.class
+com\vova_cons\image\ImageLoaderTest.class
+com\vova_cons\sprite\SpriteTest.class
+com\vova_cons\sprite_loader\SpriteCollectionTest.class
+com\vova_cons\sprite\SpriteTest$1.class
+com\vova_cons\sprite\SpriteTest$ImageMock.class

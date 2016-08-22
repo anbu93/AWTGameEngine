@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<atlas src="test.png">
+	<sprite id="test" x="0" y="0" w="150" h="100"/>
+</atlas>

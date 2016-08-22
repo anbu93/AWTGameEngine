@@ -1,0 +1,48 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.vova_cons</groupId>
+	<artifactId>game2D_ui</artifactId>
+	<version>1.1.2</version>
+	<packaging>jar</packaging>
+	<description>
+		1.0.5 Добавлены методы Window изменение видимости, изменения размера и заголовка
+		1.0.6 Добавлена функция извлечения угла между двумя точками (относительно х)
+		1.0.7 Исправлен баг с обрезанием изображения при кручении.
+		1.0.8 Исправлен баг с отображением спрайта с углом 0.
+		1.1.0 Добавлен TextSprite - текстовый спрайт.
+		1.1.2 Добавлены кнопки для Controller-а
+	</description>
+
+	<name>game2D_ui</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<build>
+		<plugins>
+			<plugin>
+				<!-- настройки компилятора (для Java 1.8) -->
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.3</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+					<encoding>UTF-8</encoding>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+<dependencies>
+	<dependency>
+		<groupId>junit</groupId>
+		<artifactId>junit</artifactId>
+		<version>3.8.1</version>
+		<scope>test</scope>
+	</dependency>
+</dependencies>
+</project>
